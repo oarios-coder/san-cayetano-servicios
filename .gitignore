@@ -1,0 +1,5 @@
+# Ignorar archivos locales temporales y documentos pesados de referencia
+file-1.pdf
+*.pdf
+.DS_Store
+Thumbs.db

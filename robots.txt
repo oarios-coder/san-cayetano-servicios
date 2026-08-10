@@ -1,0 +1,8 @@
+# Robots.txt de Servicios Industriales San Cayetano
+# Optimizado para rastreadores de buscadores y motores de respuesta con IA
+
+User-agent: *
+Allow: /
+Disallow: /politica-privacidad.html
+
+Sitemap: https://www.sancayetanoindustriales.com.ar/sitemap.xml
