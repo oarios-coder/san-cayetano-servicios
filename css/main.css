@@ -244,40 +244,21 @@ button, input, select, textarea {
     gap: 12px;
 }
 
-.logo-icon {
-    width: 40px;
-    height: 40px;
-    background-color: var(--color-white);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-titles);
-    font-weight: 800;
-    color: var(--color-primary);
-    border: 2px solid var(--color-cta);
+.header-logo-img {
+    height: 55px;
+    width: auto;
+    display: block;
+    transition: var(--transition-smooth);
 }
 
-.logo-text {
-    display: flex;
-    flex-direction: column;
+.site-header.shrink .header-logo-img {
+    height: 46px;
 }
 
-.logo-title {
-    font-family: var(--font-titles);
-    font-size: 1.1rem;
-    font-weight: 800;
-    color: var(--color-white);
-    letter-spacing: 0.5px;
-    line-height: 1.1;
-}
-
-.logo-subtitle {
-    font-size: 0.65rem;
-    color: var(--color-cta);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+.footer-logo-img {
+    height: 65px;
+    width: auto;
+    display: block;
 }
 
 /* Main Navigation */
@@ -510,6 +491,13 @@ button, input, select, textarea {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+}
+
+/* 2-column responsive grid */
+.services-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 .service-card {
@@ -1723,7 +1711,7 @@ textarea.form-control {
         grid-template-columns: 1fr;
     }
     
-    .services-grid, .services-grid-8 {
+    .services-grid, .services-grid-8, .services-grid-2 {
         grid-template-columns: 1fr;
     }
     
