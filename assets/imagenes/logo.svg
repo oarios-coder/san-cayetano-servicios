@@ -36,11 +36,11 @@
 
   <!-- Right: Typography -->
   <!-- SERVICIOS INDUSTRIALES -->
-  <text x="175" y="32" font-family="'Montserrat', 'Inter', 'Helvetica', sans-serif" font-size="16.5" font-weight="600" font-style="italic" fill="#FFFFFF" letter-spacing="1">SERVICIOS INDUSTRIALES</text>
+  <text x="175" y="32" font-family="'Montserrat', 'Inter', 'Helvetica', sans-serif" font-size="14.5" font-weight="600" font-style="italic" fill="#FFFFFF" letter-spacing="1">SERVICIOS INDUSTRIALES</text>
   
   <!-- SAN CAYETANO -->
-  <text x="172" y="70" font-family="'Georgia', 'Times New Roman', serif" font-size="44" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">SAN CAYETANO</text>
+  <text x="172" y="70" font-family="'Georgia', 'Times New Roman', serif" font-size="36" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">SAN CAYETANO</text>
   
   <!-- -DE LANARO Y CIA. S.R.L- -->
-  <text x="328" y="88" font-family="'Montserrat', 'Inter', 'Helvetica', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">-DE LANARO Y CIA. S.R.L-</text>
+  <text x="315" y="88" font-family="'Montserrat', 'Inter', 'Helvetica', sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" letter-spacing="0.5">-DE LANARO Y CIA. S.R.L-</text>
 </svg>
